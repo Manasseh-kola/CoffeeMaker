@@ -13,8 +13,7 @@ class CoffeeMaker:
 
     # Returns a string describing the current contents of the inventory.
     def check_ingredients(self):
-        # TODO: code this method
-        return "Not yet implemented\n"
+        return f"Coffee: {self.get_coffee()}\nMilk: {self.get_milk()}\n"
 
     # Cleanup coffee maker emptying all its content.
     def cleanup(self):
